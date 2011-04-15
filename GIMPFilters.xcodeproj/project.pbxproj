@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B087E86713587A31006301B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B087E86613587A31006301B1 /* Foundation.framework */; };
+		B087E88713587A57006301B1 /* BWFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87013587A57006301B1 /* BWFilter.h */; };
+		B087E88813587A57006301B1 /* BWFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87113587A57006301B1 /* BWFilter.m */; };
+		B087E88913587A57006301B1 /* Definitions.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87213587A57006301B1 /* Definitions.h */; };
+		B087E88A13587A57006301B1 /* EmbossFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87313587A57006301B1 /* EmbossFilter.h */; };
+		B087E88B13587A57006301B1 /* EmbossFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87413587A57006301B1 /* EmbossFilter.m */; };
+		B087E88C13587A57006301B1 /* FilterImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87513587A57006301B1 /* FilterImage.h */; };
+		B087E88D13587A57006301B1 /* FilterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87613587A57006301B1 /* FilterImage.m */; };
+		B087E88E13587A57006301B1 /* FiltersCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87713587A57006301B1 /* FiltersCore.h */; };
+		B087E88F13587A57006301B1 /* FiltersCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87813587A57006301B1 /* FiltersCore.m */; };
+		B087E89013587A57006301B1 /* Functions.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87913587A57006301B1 /* Functions.h */; };
+		B087E89113587A57006301B1 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87A13587A57006301B1 /* Functions.m */; };
+		B087E89213587A57006301B1 /* GaussSelectiveBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87B13587A57006301B1 /* GaussSelectiveBlurFilter.h */; };
+		B087E89313587A57006301B1 /* GaussSelectiveBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87C13587A57006301B1 /* GaussSelectiveBlurFilter.m */; };
+		B087E89413587A57006301B1 /* GlassTileFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87D13587A57006301B1 /* GlassTileFilter.h */; };
+		B087E89513587A57006301B1 /* GlassTileFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E87E13587A57006301B1 /* GlassTileFilter.m */; };
+		B087E89613587A57006301B1 /* MotionBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E87F13587A57006301B1 /* MotionBlurFilter.h */; };
+		B087E89713587A57006301B1 /* MotionBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E88013587A57006301B1 /* MotionBlurFilter.m */; };
+		B087E89813587A57006301B1 /* RedEyeRemovalFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E88113587A57006301B1 /* RedEyeRemovalFilter.h */; };
+		B087E89913587A57006301B1 /* RedEyeRemovalFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E88213587A57006301B1 /* RedEyeRemovalFilter.m */; };
+		B087E89A13587A57006301B1 /* SharpenFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E88313587A57006301B1 /* SharpenFilter.h */; };
+		B087E89B13587A57006301B1 /* SharpenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E88413587A57006301B1 /* SharpenFilter.m */; };
+		B087E89C13587A57006301B1 /* SoftGlowFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E88513587A57006301B1 /* SoftGlowFilter.h */; };
+		B087E89D13587A57006301B1 /* SoftGlowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E88613587A57006301B1 /* SoftGlowFilter.m */; };
+		B087E8AF13587AF8006301B1 /* EmbossFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E89F13587AF8006301B1 /* EmbossFilterSettingsView.h */; };
+		B087E8B013587AF8006301B1 /* EmbossFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8A013587AF8006301B1 /* EmbossFilterSettingsView.m */; };
+		B087E8B113587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8A113587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.h */; };
+		B087E8B213587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8A213587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.m */; };
+		B087E8B313587AF8006301B1 /* GlassTileFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8A313587AF8006301B1 /* GlassTileFilterSettingsView.h */; };
+		B087E8B413587AF8006301B1 /* GlassTileFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8A413587AF8006301B1 /* GlassTileFilterSettingsView.m */; };
+		B087E8B513587AF8006301B1 /* MotionBlurFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8A513587AF8006301B1 /* MotionBlurFilterSettingsView.h */; };
+		B087E8B613587AF8006301B1 /* MotionBlurFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8A613587AF8006301B1 /* MotionBlurFilterSettingsView.m */; };
+		B087E8B713587AF8006301B1 /* RedEyeRemovalFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8A713587AF8006301B1 /* RedEyeRemovalFilterSettingsView.h */; };
+		B087E8B813587AF8006301B1 /* RedEyeRemovalFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8A813587AF8006301B1 /* RedEyeRemovalFilterSettingsView.m */; };
+		B087E8B913587AF8006301B1 /* SettisngsViewBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8A913587AF8006301B1 /* SettisngsViewBase.h */; };
+		B087E8BA13587AF8006301B1 /* SettisngsViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8AA13587AF8006301B1 /* SettisngsViewBase.m */; };
+		B087E8BB13587AF8006301B1 /* SharpenFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8AB13587AF8006301B1 /* SharpenFilterSettingsView.h */; };
+		B087E8BC13587AF8006301B1 /* SharpenFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8AC13587AF8006301B1 /* SharpenFilterSettingsView.m */; };
+		B087E8BD13587AF8006301B1 /* SoftGlowFilterSettingsView.h in Headers */ = {isa = PBXBuildFile; fileRef = B087E8AD13587AF8006301B1 /* SoftGlowFilterSettingsView.h */; };
+		B087E8BE13587AF8006301B1 /* SoftGlowFilterSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087E8AE13587AF8006301B1 /* SoftGlowFilterSettingsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B087E86313587A31006301B1 /* libGIMPFilters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGIMPFilters.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B087E86613587A31006301B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B087E86A13587A31006301B1 /* GIMPFilters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GIMPFilters-Prefix.pch"; sourceTree = "<group>"; };
+		B087E87013587A57006301B1 /* BWFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWFilter.h; sourceTree = "<group>"; };
+		B087E87113587A57006301B1 /* BWFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWFilter.m; sourceTree = "<group>"; };
+		B087E87213587A57006301B1 /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		B087E87313587A57006301B1 /* EmbossFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbossFilter.h; sourceTree = "<group>"; };
+		B087E87413587A57006301B1 /* EmbossFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbossFilter.m; sourceTree = "<group>"; };
+		B087E87513587A57006301B1 /* FilterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterImage.h; sourceTree = "<group>"; };
+		B087E87613587A57006301B1 /* FilterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterImage.m; sourceTree = "<group>"; };
+		B087E87713587A57006301B1 /* FiltersCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersCore.h; sourceTree = "<group>"; };
+		B087E87813587A57006301B1 /* FiltersCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersCore.m; sourceTree = "<group>"; };
+		B087E87913587A57006301B1 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		B087E87A13587A57006301B1 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		B087E87B13587A57006301B1 /* GaussSelectiveBlurFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaussSelectiveBlurFilter.h; sourceTree = "<group>"; };
+		B087E87C13587A57006301B1 /* GaussSelectiveBlurFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaussSelectiveBlurFilter.m; sourceTree = "<group>"; };
+		B087E87D13587A57006301B1 /* GlassTileFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlassTileFilter.h; sourceTree = "<group>"; };
+		B087E87E13587A57006301B1 /* GlassTileFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlassTileFilter.m; sourceTree = "<group>"; };
+		B087E87F13587A57006301B1 /* MotionBlurFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionBlurFilter.h; sourceTree = "<group>"; };
+		B087E88013587A57006301B1 /* MotionBlurFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionBlurFilter.m; sourceTree = "<group>"; };
+		B087E88113587A57006301B1 /* RedEyeRemovalFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedEyeRemovalFilter.h; sourceTree = "<group>"; };
+		B087E88213587A57006301B1 /* RedEyeRemovalFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedEyeRemovalFilter.m; sourceTree = "<group>"; };
+		B087E88313587A57006301B1 /* SharpenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharpenFilter.h; sourceTree = "<group>"; };
+		B087E88413587A57006301B1 /* SharpenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharpenFilter.m; sourceTree = "<group>"; };
+		B087E88513587A57006301B1 /* SoftGlowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftGlowFilter.h; sourceTree = "<group>"; };
+		B087E88613587A57006301B1 /* SoftGlowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftGlowFilter.m; sourceTree = "<group>"; };
+		B087E89F13587AF8006301B1 /* EmbossFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbossFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8A013587AF8006301B1 /* EmbossFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbossFilterSettingsView.m; sourceTree = "<group>"; };
+		B087E8A113587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaussSelectiveBlurFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8A213587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaussSelectiveBlurFilterSettingsView.m; sourceTree = "<group>"; };
+		B087E8A313587AF8006301B1 /* GlassTileFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlassTileFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8A413587AF8006301B1 /* GlassTileFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlassTileFilterSettingsView.m; sourceTree = "<group>"; };
+		B087E8A513587AF8006301B1 /* MotionBlurFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionBlurFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8A613587AF8006301B1 /* MotionBlurFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionBlurFilterSettingsView.m; sourceTree = "<group>"; };
+		B087E8A713587AF8006301B1 /* RedEyeRemovalFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedEyeRemovalFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8A813587AF8006301B1 /* RedEyeRemovalFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedEyeRemovalFilterSettingsView.m; sourceTree = "<group>"; };
+		B087E8A913587AF8006301B1 /* SettisngsViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettisngsViewBase.h; sourceTree = "<group>"; };
+		B087E8AA13587AF8006301B1 /* SettisngsViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettisngsViewBase.m; sourceTree = "<group>"; };
+		B087E8AB13587AF8006301B1 /* SharpenFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharpenFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8AC13587AF8006301B1 /* SharpenFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharpenFilterSettingsView.m; sourceTree = "<group>"; };
+		B087E8AD13587AF8006301B1 /* SoftGlowFilterSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftGlowFilterSettingsView.h; sourceTree = "<group>"; };
+		B087E8AE13587AF8006301B1 /* SoftGlowFilterSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftGlowFilterSettingsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B087E86013587A31006301B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B087E86713587A31006301B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B087E85813587A31006301B1 = {
+			isa = PBXGroup;
+			children = (
+				B087E86813587A31006301B1 /* GIMPFilters */,
+				B087E86513587A31006301B1 /* Frameworks */,
+				B087E86413587A31006301B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B087E86413587A31006301B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B087E86313587A31006301B1 /* libGIMPFilters.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B087E86513587A31006301B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B087E86613587A31006301B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B087E86813587A31006301B1 /* GIMPFilters */ = {
+			isa = PBXGroup;
+			children = (
+				B087E89E13587AEE006301B1 /* FilterSettingsViews */,
+				B087E87013587A57006301B1 /* BWFilter.h */,
+				B087E87113587A57006301B1 /* BWFilter.m */,
+				B087E87213587A57006301B1 /* Definitions.h */,
+				B087E87313587A57006301B1 /* EmbossFilter.h */,
+				B087E87413587A57006301B1 /* EmbossFilter.m */,
+				B087E87513587A57006301B1 /* FilterImage.h */,
+				B087E87613587A57006301B1 /* FilterImage.m */,
+				B087E87713587A57006301B1 /* FiltersCore.h */,
+				B087E87813587A57006301B1 /* FiltersCore.m */,
+				B087E87913587A57006301B1 /* Functions.h */,
+				B087E87A13587A57006301B1 /* Functions.m */,
+				B087E87B13587A57006301B1 /* GaussSelectiveBlurFilter.h */,
+				B087E87C13587A57006301B1 /* GaussSelectiveBlurFilter.m */,
+				B087E87D13587A57006301B1 /* GlassTileFilter.h */,
+				B087E87E13587A57006301B1 /* GlassTileFilter.m */,
+				B087E87F13587A57006301B1 /* MotionBlurFilter.h */,
+				B087E88013587A57006301B1 /* MotionBlurFilter.m */,
+				B087E88113587A57006301B1 /* RedEyeRemovalFilter.h */,
+				B087E88213587A57006301B1 /* RedEyeRemovalFilter.m */,
+				B087E88313587A57006301B1 /* SharpenFilter.h */,
+				B087E88413587A57006301B1 /* SharpenFilter.m */,
+				B087E88513587A57006301B1 /* SoftGlowFilter.h */,
+				B087E88613587A57006301B1 /* SoftGlowFilter.m */,
+				B087E86913587A31006301B1 /* Supporting Files */,
+			);
+			path = GIMPFilters;
+			sourceTree = "<group>";
+		};
+		B087E86913587A31006301B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B087E86A13587A31006301B1 /* GIMPFilters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B087E89E13587AEE006301B1 /* FilterSettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				B087E89F13587AF8006301B1 /* EmbossFilterSettingsView.h */,
+				B087E8A013587AF8006301B1 /* EmbossFilterSettingsView.m */,
+				B087E8A113587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.h */,
+				B087E8A213587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.m */,
+				B087E8A313587AF8006301B1 /* GlassTileFilterSettingsView.h */,
+				B087E8A413587AF8006301B1 /* GlassTileFilterSettingsView.m */,
+				B087E8A513587AF8006301B1 /* MotionBlurFilterSettingsView.h */,
+				B087E8A613587AF8006301B1 /* MotionBlurFilterSettingsView.m */,
+				B087E8A713587AF8006301B1 /* RedEyeRemovalFilterSettingsView.h */,
+				B087E8A813587AF8006301B1 /* RedEyeRemovalFilterSettingsView.m */,
+				B087E8A913587AF8006301B1 /* SettisngsViewBase.h */,
+				B087E8AA13587AF8006301B1 /* SettisngsViewBase.m */,
+				B087E8AB13587AF8006301B1 /* SharpenFilterSettingsView.h */,
+				B087E8AC13587AF8006301B1 /* SharpenFilterSettingsView.m */,
+				B087E8AD13587AF8006301B1 /* SoftGlowFilterSettingsView.h */,
+				B087E8AE13587AF8006301B1 /* SoftGlowFilterSettingsView.m */,
+			);
+			path = FilterSettingsViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B087E86113587A31006301B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B087E88713587A57006301B1 /* BWFilter.h in Headers */,
+				B087E88913587A57006301B1 /* Definitions.h in Headers */,
+				B087E88A13587A57006301B1 /* EmbossFilter.h in Headers */,
+				B087E88C13587A57006301B1 /* FilterImage.h in Headers */,
+				B087E88E13587A57006301B1 /* FiltersCore.h in Headers */,
+				B087E89013587A57006301B1 /* Functions.h in Headers */,
+				B087E89213587A57006301B1 /* GaussSelectiveBlurFilter.h in Headers */,
+				B087E89413587A57006301B1 /* GlassTileFilter.h in Headers */,
+				B087E89613587A57006301B1 /* MotionBlurFilter.h in Headers */,
+				B087E89813587A57006301B1 /* RedEyeRemovalFilter.h in Headers */,
+				B087E89A13587A57006301B1 /* SharpenFilter.h in Headers */,
+				B087E89C13587A57006301B1 /* SoftGlowFilter.h in Headers */,
+				B087E8AF13587AF8006301B1 /* EmbossFilterSettingsView.h in Headers */,
+				B087E8B113587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.h in Headers */,
+				B087E8B313587AF8006301B1 /* GlassTileFilterSettingsView.h in Headers */,
+				B087E8B513587AF8006301B1 /* MotionBlurFilterSettingsView.h in Headers */,
+				B087E8B713587AF8006301B1 /* RedEyeRemovalFilterSettingsView.h in Headers */,
+				B087E8B913587AF8006301B1 /* SettisngsViewBase.h in Headers */,
+				B087E8BB13587AF8006301B1 /* SharpenFilterSettingsView.h in Headers */,
+				B087E8BD13587AF8006301B1 /* SoftGlowFilterSettingsView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B087E86213587A31006301B1 /* GIMPFilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B087E86D13587A31006301B1 /* Build configuration list for PBXNativeTarget "GIMPFilters" */;
+			buildPhases = (
+				B087E85F13587A31006301B1 /* Sources */,
+				B087E86013587A31006301B1 /* Frameworks */,
+				B087E86113587A31006301B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIMPFilters;
+			productName = GIMPFilters;
+			productReference = B087E86313587A31006301B1 /* libGIMPFilters.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B087E85A13587A31006301B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = smile2mobile;
+			};
+			buildConfigurationList = B087E85D13587A31006301B1 /* Build configuration list for PBXProject "GIMPFilters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B087E85813587A31006301B1;
+			productRefGroup = B087E86413587A31006301B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B087E86213587A31006301B1 /* GIMPFilters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B087E85F13587A31006301B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B087E88813587A57006301B1 /* BWFilter.m in Sources */,
+				B087E88B13587A57006301B1 /* EmbossFilter.m in Sources */,
+				B087E88D13587A57006301B1 /* FilterImage.m in Sources */,
+				B087E88F13587A57006301B1 /* FiltersCore.m in Sources */,
+				B087E89113587A57006301B1 /* Functions.m in Sources */,
+				B087E89313587A57006301B1 /* GaussSelectiveBlurFilter.m in Sources */,
+				B087E89513587A57006301B1 /* GlassTileFilter.m in Sources */,
+				B087E89713587A57006301B1 /* MotionBlurFilter.m in Sources */,
+				B087E89913587A57006301B1 /* RedEyeRemovalFilter.m in Sources */,
+				B087E89B13587A57006301B1 /* SharpenFilter.m in Sources */,
+				B087E89D13587A57006301B1 /* SoftGlowFilter.m in Sources */,
+				B087E8B013587AF8006301B1 /* EmbossFilterSettingsView.m in Sources */,
+				B087E8B213587AF8006301B1 /* GaussSelectiveBlurFilterSettingsView.m in Sources */,
+				B087E8B413587AF8006301B1 /* GlassTileFilterSettingsView.m in Sources */,
+				B087E8B613587AF8006301B1 /* MotionBlurFilterSettingsView.m in Sources */,
+				B087E8B813587AF8006301B1 /* RedEyeRemovalFilterSettingsView.m in Sources */,
+				B087E8BA13587AF8006301B1 /* SettisngsViewBase.m in Sources */,
+				B087E8BC13587AF8006301B1 /* SharpenFilterSettingsView.m in Sources */,
+				B087E8BE13587AF8006301B1 /* SoftGlowFilterSettingsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B087E86B13587A31006301B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B087E86C13587A31006301B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B087E86E13587A31006301B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/GIMPFilters.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GIMPFilters/GIMPFilters-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B087E86F13587A31006301B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/GIMPFilters.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GIMPFilters/GIMPFilters-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B087E85D13587A31006301B1 /* Build configuration list for PBXProject "GIMPFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B087E86B13587A31006301B1 /* Debug */,
+				B087E86C13587A31006301B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B087E86D13587A31006301B1 /* Build configuration list for PBXNativeTarget "GIMPFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B087E86E13587A31006301B1 /* Debug */,
+				B087E86F13587A31006301B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B087E85A13587A31006301B1 /* Project object */;
+}

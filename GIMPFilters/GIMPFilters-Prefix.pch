@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'GIMPFilters' target in the 'GIMPFilters' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#define FPSNotification @"FilterProgressStateNotification"
