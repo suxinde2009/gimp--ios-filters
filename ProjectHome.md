@@ -1,0 +1,1 @@
+GIMP filters from www.gimp.org adapted for iOS.
